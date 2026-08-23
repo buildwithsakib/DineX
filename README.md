@@ -102,4 +102,17 @@ SERVED
    ↓
 COMPLETED
 
+Orders can also be:
 
+```text
+CANCELLED
+
+Features include:
+
+Kitchen order dashboard
+Real-time order status updates
+Order history
+Customer order tracking
+Table status management
+Order status history
+Restaurant-specific order isolation

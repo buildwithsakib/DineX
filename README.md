@@ -102,10 +102,13 @@ SERVED
    ↓
 COMPLETED
 
+'''
+
 Orders can also be:
 
 ```text
 CANCELLED
+'''
 
 Features include:
 

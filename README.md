@@ -489,3 +489,49 @@ dinex/
 ├── index.php
 ├── register.php
 └── README.md
+
+---
+## 🗄️ Database
+
+The complete DineX database schema is stored at:
+
+database/dinex.sql
+
+The database includes tables for:
+
+- Platform users
+- Restaurants
+- Restaurant staff
+- Roles
+- Permissions
+- Role permissions
+- Subscription plans
+- Subscription plan features
+- Restaurant subscriptions
+- Restaurant feature overrides
+- Subscription payments
+- Restaurant tables
+- QR codes
+- Table sessions
+- Categories
+- Cuisines
+- Foods
+- Food variants
+- Food add-ons
+- Orders
+- Order items
+- Order status history
+- Games
+- Game rewards
+- Game sessions
+- Coupons
+- Coupon redemptions
+- Bills
+- Payments
+- Reviews
+- Campaigns
+- Notifications
+- Settings
+- Audit logs
+- Rate limiting
+

@@ -491,13 +491,14 @@ dinex/
 └── README.md
 
 ---
-## 🗄️ Database
 
-The complete DineX database schema is stored at:
+## 🗄️ **Database**
+
+### The complete DineX database schema is stored at:
 
 database/dinex.sql
 
-The database includes tables for:
+### The database includes tables for:
 
 - Platform users
 - Restaurants

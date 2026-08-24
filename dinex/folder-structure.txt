@@ -1,0 +1,188 @@
+DINEX/
+│
+├── .htaccess
+├── business-login.php
+├── index.php
+├── register.php
+│
+├── admin/
+│   ├── founder/
+│   │   ├── analytics.php
+│   │   ├── audit-logs.php
+│   │   ├── dashboard.php
+│   │   ├── features.php
+│   │   ├── login.php
+│   │   ├── logout.php
+│   │   ├── payments.php
+│   │   ├── plan-create.php
+│   │   ├── plan-edit.php
+│   │   ├── plans.php
+│   │   ├── restaurant-create.php
+│   │   ├── restaurant-edit.php
+│   │   ├── restaurant-features.php
+│   │   ├── restaurant-view.php
+│   │   ├── restaurants.php
+│   │   ├── settings.php
+│   │   └── subscriptions.php
+│   │
+│   ├── restaurant/
+│   │   ├── analytics.php
+│   │   ├── billing.php
+│   │   ├── campaigns.php
+│   │   ├── categories.php
+│   │   ├── coupons.php
+│   │   ├── cuisines.php
+│   │   ├── dashboard.php
+│   │   ├── foods.php
+│   │   ├── games.php
+│   │   ├── kitchen.php
+│   │   ├── login.php
+│   │   ├── logout.php
+│   │   ├── order-detail.php
+│   │   ├── orders.php
+│   │   ├── payments.php
+│   │   ├── permissions.php
+│   │   ├── qr.php
+│   │   ├── restaurant.php
+│   │   ├── reviews.php
+│   │   ├── rewards.php
+│   │   ├── settings.php
+│   │   ├── staff.php
+│   │   └── tables.php
+│   │
+│   └── templates/
+│       ├── founder-footer.php
+│       ├── founder-header.php
+│       ├── restaurant-footer.php
+│       └── restaurant-header.php
+│
+├── api/
+│   ├── index.php
+│   │
+│   ├── analytics/
+│   │   └── index.php
+│   │
+│   ├── auth/
+│   │   └── index.php
+│   │
+│   ├── billing/
+│   │   └── index.php
+│   │
+│   ├── categories/
+│   │   └── index.php
+│   │
+│   ├── coupons/
+│   │   └── index.php
+│   │
+│   ├── cuisines/
+│   │   └── index.php
+│   │
+│   ├── customer/
+│   │   ├── index.php
+│   │   ├── pay-bill.php
+│   │   ├── place-order.php
+│   │   ├── play-game.php
+│   │   └── redeem-coupon.php
+│   │
+│   ├── foods/
+│   │   └── index.php
+│   │
+│   ├── founder/
+│   │   └── index.php
+│   │
+│   ├── games/
+│   │   └── index.php
+│   │
+│   ├── orders/
+│   │   └── index.php
+│   │
+│   ├── restaurant/
+│   │   └── index.php
+│   │
+│   ├── subscriptions/
+│   │   └── index.php
+│   │
+│   └── tables/
+│       └── index.php
+│
+├── assets/
+│   ├── css/
+│   ├── images/
+│   ├── js/
+│   └── uploads/
+│
+├── config/
+│   ├── config.php
+│   ├── constants.php
+│   └── database.php
+│
+├── cron/
+│   └── cleanup.php
+│
+├── customer/
+│   ├── billing.php
+│   ├── cart.php
+│   ├── checkout.php
+│   ├── coupon.php
+│   ├── feedback.php
+│   ├── food.php
+│   ├── games.php
+│   ├── index.php
+│   ├── menu.php
+│   ├── order-status.php
+│   ├── order.php
+│   ├── play.php
+│   ├── search.php
+│   └── session.php
+│
+├── database/
+│   └── dinex.sql
+│
+├── documentation/
+│   ├── database.md
+│   ├── deployment.md
+│   ├── installation.md
+│   ├── security.md
+│   ├── subscription-system.md
+│   └── user-guide.md
+│
+├── games/
+│   ├── catch-win/
+│   │   └── index.php
+│   │
+│   ├── common/
+│   │   └── play.js
+│   │
+│   ├── lottery/
+│   │   └── index.php
+│   │
+│   ├── slot-machine/
+│   │   └── index.php
+│   │
+│   ├── snakes-ladders/
+│   │   └── index.php
+│   │
+│   ├── spin-wheel/
+│   │   └── index.php
+│   │
+│   └── tap-speed/
+│       └── index.php
+│
+├── includes/
+│   ├── auth.php
+│   ├── authorization.php
+│   ├── cleanup.php
+│   ├── csrf.php
+│   ├── customer-session.php
+│   ├── feature-access.php
+│   ├── functions.php
+│   ├── performance.php
+│   ├── permissions.php
+│   ├── rate-limit.php
+│   ├── security-headers.php
+│   ├── security.php
+│   ├── session.php
+│   ├── subscription.php
+│   └── validation.php
+│
+└── logs/
